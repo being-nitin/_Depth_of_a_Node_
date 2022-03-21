@@ -24,6 +24,7 @@ public class Main {
         if(k<0){
             return;
         }
+        // k=0 means that there will be only root no nodes will be there.
         if(k==0){
             System.out.println(root.data);
         }
@@ -31,6 +32,4 @@ public class Main {
             printAtK(root.children.get(i),k-1);
         }
     }
-
-
 }
