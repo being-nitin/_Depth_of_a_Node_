@@ -24,7 +24,7 @@ public class Main {
         if(k<0){
             return;
         }
-        // k=0 means that there will be only root no nodes will be there.
+        // k=0 means that there will be only root node and no other node will be there.
         if(k==0){
             System.out.println(root.data);
         }
